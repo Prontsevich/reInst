@@ -68,7 +68,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "reInst:build"
+            "browserTarget": "reInst:build",
+            "port": 4666
           },
           "configurations": {
             "production": {
